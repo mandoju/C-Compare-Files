@@ -47,13 +47,14 @@ namespace C_Compare_Files
         static void print_welcome(){
 
                 Console.WriteLine("Bem-vindo ao programa para gerar novos programas binários");
-                Console.WriteLine("");
+                Console.WriteLine(String.Empty);
                 Console.WriteLine("O programa deve ser executado da seguinte Maneira:");
                 Console.WriteLine("programa.exe <num_files> <file_1> <file_2> ....");
-                Console.WriteLine("");
+                Console.WriteLine(String.Empty);
                 Console.WriteLine("<num_files>: Número de arquivos que irá ser gerados ao executar o programa.");
                 Console.WriteLine("<file_1>,<file_2>,...: Arquivos que servirão de entrada para o programa, pode colocar quantos arquivos quiser desde que sejam divididos por espaço");
                 Console.WriteLine(String.Empty);
+                Console.WriteLine("Os arquivos gerados pelo programa Estarão na pasta output");
                 Console.WriteLine("Pressione qualquer tecla para sair");
                 Console.ReadKey();
         }
@@ -119,7 +120,8 @@ namespace C_Compare_Files
         {
             Byte[] temp_byte = new Byte[1];
             Random rnd = new Random();
-            
+            DirectoryInfo di = Directory.CreateDirectory("output");
+
             for(int i = 1; i <= num_new_files; i++)
             {
                 foreach(int index in indexes)
@@ -127,7 +129,8 @@ namespace C_Compare_Files
                     rnd.NextBytes(temp_byte);
                     file_input[index] = temp_byte[0];
                 }
-                File.WriteAllBytes("E" + i.ToString().PadLeft(3, '0') + ".bin", file_input);
+
+                File.WriteAllBytes(@"output\\E" + i.ToString().PadLeft(3, '0') + ".bin", file_input);
             }
 
         }
@@ -172,7 +175,8 @@ namespace C_Compare_Files
                 lines[i] = memory_position_string + hex.ToString();
             }
             
-            File.WriteAllLines(@"E.txt", lines);
+            DirectoryInfo di = Directory.CreateDirectory("output");
+            File.WriteAllLines(@"output\\E.txt", lines);
 
         }
     }

@@ -1,0 +1,14 @@
+C:\projetos\projeto_pai\C-Compare-Files\bin\Release\netcoreapp2.1\win-x64\hostpolicy.dll
+C:\projetos\projeto_pai\C-Compare-Files\bin\Release\netcoreapp2.1\win-x64\hostfxr.dll
+C:\projetos\projeto_pai\C-Compare-Files\bin\Release\netcoreapp2.1\win-x64\C-Compare-Files.exe
+C:\projetos\projeto_pai\C-Compare-Files\bin\Release\netcoreapp2.1\win-x64\C-Compare-Files.deps.json
+C:\projetos\projeto_pai\C-Compare-Files\bin\Release\netcoreapp2.1\win-x64\C-Compare-Files.runtimeconfig.json
+C:\projetos\projeto_pai\C-Compare-Files\bin\Release\netcoreapp2.1\win-x64\C-Compare-Files.runtimeconfig.dev.json
+C:\projetos\projeto_pai\C-Compare-Files\bin\Release\netcoreapp2.1\win-x64\C-Compare-Files.dll
+C:\projetos\projeto_pai\C-Compare-Files\bin\Release\netcoreapp2.1\win-x64\C-Compare-Files.pdb
+C:\projetos\projeto_pai\C-Compare-Files\obj\Release\netcoreapp2.1\win-x64\C-Compare-Files.csprojAssemblyReference.cache
+C:\projetos\projeto_pai\C-Compare-Files\obj\Release\netcoreapp2.1\win-x64\C-Compare-Files.csproj.CoreCompileInputs.cache
+C:\projetos\projeto_pai\C-Compare-Files\obj\Release\netcoreapp2.1\win-x64\C-Compare-Files.AssemblyInfoInputs.cache
+C:\projetos\projeto_pai\C-Compare-Files\obj\Release\netcoreapp2.1\win-x64\C-Compare-Files.AssemblyInfo.cs
+C:\projetos\projeto_pai\C-Compare-Files\obj\Release\netcoreapp2.1\win-x64\C-Compare-Files.dll
+C:\projetos\projeto_pai\C-Compare-Files\obj\Release\netcoreapp2.1\win-x64\C-Compare-Files.pdb
